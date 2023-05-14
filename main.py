@@ -17,7 +17,12 @@ while True:
 
         local_blockchain.add_block(block_to_be_added)
 
-   
+    elif str == "N":
+        print("Here is your entire blockchain! \n ")
+
+        local_blockchain.print_blocks()
+
+        break
 
     else:
         print("Please enter Y or N")
